@@ -1,0 +1,30 @@
+.container__big-card{
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    width: 200px;
+    height: 215px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    
+    justify-content: flex-start;
+}
+
+.big-card__picture > img {
+    border-radius: 8px;
+}
+
+.big-card__title > h1{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+.big-card__description > p{
+    margin-left: 5px;
+    margin-top: 5px;
+    color: gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 5px;
+}
