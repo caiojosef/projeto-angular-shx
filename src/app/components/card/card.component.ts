@@ -16,18 +16,13 @@ export class CardComponent implements OnInit {
   constructor(private service: DolarService) { }
 
   ngOnInit(): void {
-    this.service.getDolar("Dólar Americano/Real Brasileiro").subscribe({
+    this.service.getDolar(" ").subscribe({
       next: (res) => {
 
         this.valorMoeda = {
-          name: res.name,
-          USDBRL: res.USDBRL.ask
-          
-        }  
-
-        console.log(res)
-        console.log(res.name)
-        console.log(res.USDBRL.ask)
+          name: res.USDBRL.name,
+          ask: res.USDBRL.ask
+        } 
       }
             
     })

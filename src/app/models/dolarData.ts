@@ -1,7 +1,7 @@
 export type DolarData = {
-    name: string
     id: any
     USDBRL: {
+    name: string
     ask: any
     }
 

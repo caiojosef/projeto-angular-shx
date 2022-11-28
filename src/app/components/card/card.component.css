@@ -18,13 +18,19 @@
     color: black;
 }
 .card__body{
-    background-color: #c4b7b7;
+    border: 1px solid black;
+    background-color: #e4d9d9;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     height: 70%;
 }
-
+.card__body > h1{
+    font-size: 15px;
+}
+.card__body > h3{
+    font-size: 40px;
+}
 .card__stats{
     margin-top: 2px;
     padding-top: 2px;
