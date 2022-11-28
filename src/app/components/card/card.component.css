@@ -1,20 +1,15 @@
 .container-card{
     border: 1px solid black;
-    width: 170px;
+    width: 200px;
     height: 200px;
-    display: flex;
-    flex-direction: column;
-    
     border-radius: 10px;
+    
 }
-.card__title{
-    margin-left: auto;
-    margin-right: auto;
-}
+
 .card__title > h3{
-    margin-top: 4px;
+    margin-top: 5px;
     margin-bottom: 4px;
-    font-size: 10px;
+    font-size: 20px;
     color: black;
 }
 .card__body{
@@ -23,7 +18,7 @@
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    height: 70%;
+    height: auto;
 }
 .card__body > h1{
     font-size: 15px;
@@ -41,7 +36,7 @@
 }
 .card__stats__type{
     color: black;
-    font-size: 10px;
+    font-size: 20px;
     border-radius: 5px;
     padding: 5px;
     margin-right: 4px;
