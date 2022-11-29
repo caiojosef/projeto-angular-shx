@@ -9,7 +9,7 @@
         <h1> {{valorMoeda.name}} </h1>
         <hr>
         <br>
-        <!-- puxando o valor da moeda, atualizando de 30 em 30 segundos. -->
+        <!-- puxando o valor da moeda, atualizando de 30 em 30 segundos. Utilizado pipe para corrigir o valor para X.XX ao invés de X.XXXX -->
         <h3> R{{valorMoeda.ask | currency}}</h3>
         
     </div>
