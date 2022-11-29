@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  dolarUrl: 'https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL'
+  dolarUrl: 'https://economia.awesomeapi.com.br/last/USD-BRL,EUR-BRL,BTC-BRL' 
 };
 
 /*
